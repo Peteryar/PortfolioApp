@@ -1,0 +1,76 @@
+#about-con {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 35px 0px;
+}
+
+#profile-pic-con {
+ 
+}
+
+#about-description-con {
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 25vw;
+    width: 25vw;
+}
+#about-title {
+    font-family: Book Antiqua;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+#about-intro {
+    font-family: Book Antiqua;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#about-description {
+    width: 100%;
+    color: #333333;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 172.3%;
+}
+
+#about-con i {
+    width: 50px;
+    height: 50px;
+    color: #0E5495;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#about-con button {
+    border: 0;
+    background: linear-gradient(180deg, #0E5495 0%, #064084 100%);
+    color: #FFF;
+    padding: 20px;
+    margin: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172.3%;
+    text-align: center;
+    cursor: pointer;
+}
+@media screen and (min-width: 700px) {
+    #profile-pic-con {
+        width:20%; 
+     }
+     
+     #about-description-con {
+         width:60%;
+     }
+  }

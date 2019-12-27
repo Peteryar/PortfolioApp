@@ -1,0 +1,38 @@
+#portfolio-con {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+#portfo-title {
+    font-family: Book Antiqua;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    font-weight: bold;
+}
+
+#project-item-1 {
+    background: linear-gradient(180deg, #0E5495 0%, #064084 100%);
+    width: 25.42vw;
+    margin: 5px;
+}
+
+#project-item-2 {
+    background: linear-gradient(180deg, #0E5495 0%, #064084 100%);
+    width: 25.42vw;
+    margin: 5px;
+}
+
+#project-items-con {
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 2;
+}

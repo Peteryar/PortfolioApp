@@ -1,0 +1,24 @@
+#intro-con {
+    background-image: url('../../assets/adobe-photoshop-apple-books-56759.jpg');
+    height: 90vh;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro-sub-con {
+    height: 100%;
+    background: linear-gradient(180deg, rgba(14, 84, 149, 0.5) 0%, rgba(6, 64, 132, 0.5) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+#intro-text-con{
+    width:100%;
+}
+#intro-text-con p {
+    font-family: Book Antiqua;
+    color:#fff;
+    padding-left:10.5%;
+}
